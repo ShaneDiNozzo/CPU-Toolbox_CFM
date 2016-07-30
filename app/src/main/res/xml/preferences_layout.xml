@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Customization">
+
+
+        <SwitchPreference
+            android:title="Light theme"
+            android:summary="Use material light app theme"
+            android:key="light_theme"
+            android:defaultValue="false" />
+
+
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory-->
+        <!--android:title="Color">-->
+
+        <!--<CheckBoxPreference-->
+            <!--android:title="Dark background"-->
+            <!--android:summary="Is the main background dark?"-->
+            <!--android:key="background_color"-->
+            <!--android:defaultValue="false" />-->
+
+        <!--<EditTextPreference-->
+            <!--android:title="Nootbook"-->
+            <!--android:summary="Title will be used in the main actionbar"-->
+            <!--android:key="title"-->
+            <!--android:hint="Enter text here..."-->
+            <!--android:defaultValue="Notebook"/>-->
+
+
+    <!--</PreferenceCategory>-->
+</PreferenceScreen>
